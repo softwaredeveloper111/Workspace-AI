@@ -4,16 +4,16 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 
 
-# Software Requirement Specification (SRS)
+# 📄 Software Requirement Specification (SRS)
 
-## Project Name
+## 🧠 Project Name
 
  **Workspace AI** *(Working Title)*
 > An AI-powered workspace that enables users to organize conversations, manage prompts, create notes, and customize their workspace through a clean, production-grade interface.
 
 <hr>
 
-## 1. Purpose
+## 🎯 1. Purpose
 
 > Workspace AI is a frontend-focused application built to simulate a modern SaaS product.
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-## 2. Objectives
+## 🚀 2. Objectives
 
 This project aims to:
 
@@ -43,14 +43,14 @@ This project aims to:
 <hr>
 
 
-## 3. Target Users
+## 👥 3. Target Users
 - Developers
 - Students
 - AI Enthusiasts
 - Productivity-focused users
 
 
-## 4. Tech Stack
+## ⚙️ 4. Tech Stack
 > Version 1
 - React
 - TypeScript
@@ -92,8 +92,8 @@ React
 
 Next.js App Router
 
-## 5. Functional Modules
-### Authentication
+## 🧩 5. Functional Modules
+### 🔐 Authentication
 >  Features
 - Login
 - Logout
@@ -102,7 +102,7 @@ Next.js App Router
 - Fake authentication
 - Protected routes
 
-### AI Chat
+### 💬 AI Chat
 > Features
 - New Chat
 - Chat List
@@ -121,7 +121,7 @@ Next.js App Router
 - Code Highlighting
 
 
-### Prompt Library
+### 📝 Prompt Library
 > Features
 - Save Prompt
 - Edit Prompt
@@ -133,7 +133,7 @@ Next.js App Router
 - Duplicate Prompt
 
 
-### Notes
+### 📒 Notes
 > Features
 - Create Note
 - Update Note
@@ -144,7 +144,7 @@ Next.js App Router
 - Filter
 - Sort
 
-### Workspace Dashboard
+### 📊 Workspace Dashboard
 > Displays
 - Total Chats
 - Total Prompts
@@ -155,7 +155,7 @@ Next.js App Router
 - Quick Actions
 
 
-### Search
+### 🔎 Search
 Global Search
 
 > Search
@@ -164,7 +164,7 @@ Global Search
 - Notes
 
 
-### Settings
+### ⚙️ Settings
 > User Preferences
 - Theme
 - Accent Color
@@ -176,7 +176,7 @@ Global Search
 - Notifications
 
 
-### User Profile
+### 👤 User Profile
 
 > Displays
 
@@ -185,8 +185,8 @@ Global Search
 - Email
 - Workspace Statistics
 
-## 6. Non Functional Requirements
-### Performance
+## 🛡️ 6. Non Functional Requirements
+### ⚡ Performance
 - Code Splitting
 - Lazy Loading
 - Memoization
@@ -199,7 +199,7 @@ Global Search
 - Virtualization (if needed)
 
 
-### Security
+### 🔒 Security
 
 > Frontend only
 
@@ -210,7 +210,7 @@ Global Search
 - Token Persistence (Mock)
 
 
-### Accessibility
+### ♿ Accessibility
 - Keyboard Navigation
 - Focus Management
 - Screen Reader Labels
@@ -218,7 +218,7 @@ Global Search
 - Color Contrast
 - ARIA Labels
 
-### Responsiveness
+### 📱 Responsiveness
 
 > Support
 
@@ -228,21 +228,21 @@ Global Search
 - Large Screens
 
 
-## 7. Pages
-### Authentication
+## 📄 7. Pages
+### 🔐 Authentication
 - Login
 
-### Dashboard
+### 🏠 Dashboard
 - Overview
 
-### Chat
+### 💬 Chat
 - Conversation Workspace
 
 ### Prompt Library
 - Saved Prompts
 
 
-### Notes
+### 📒 Notes
 - Workspace Notes
 
 
@@ -250,27 +250,27 @@ Global Search
 - User Profile
 
 
-### Settings
+### ⚙️ Settings
 - Workspace Settings
 
 
-### Not Found 
+### ❓ Not Found 
 - 404 Page
 
 
-## 8. Component Library
-### Layout
+## 🧱 8. Component Library
+### 🧭 Layout
 - Navbar
 - Sidebar
 - Page Container
 - Header
 - Footer
-### Navigation
+### 🗺️ Navigation
 - Breadcrumb
 - Tabs
 - Command Palette
 - Search Bar
-### Inputs
+### ⌨️ Inputs
 - Input
 - Textarea
 - Select
@@ -279,7 +279,7 @@ Global Search
 - Radio
 - File Upload (future-ready)
 - Date Picker (optional)
-### Feedback
+### 💬 Feedback
 - Toast
 - Modal
 - Drawer
@@ -288,7 +288,7 @@ Global Search
 - Confirm Dialog
 - Loading Spinner
 - Skeleton
-### Data Display
+### 📊 Data Display
 - Card
 - Table
 - List
@@ -296,7 +296,7 @@ Global Search
 - Avatar
 - Timeline
 - Empty State
-### AI Components
+### 🤖 AI Components
 - Chat Bubble
 - Prompt Card
 - Typing Indicator
@@ -306,7 +306,7 @@ Global Search
 - Message Actions
 
 
-## 9. Routing Structure
+## 🧭 9. Routing Structure
  /
 
 ├── login
@@ -327,14 +327,14 @@ Global Search
 └── *
 
 
-## 10. State Management
-###  Local State
+## 🗂️ 10. State Management
+### 🧠 Local State
 - Form Inputs
 - Modal State
 - Dropdown
 - Tabs
 
-### Global State
+### 🌐 Global State
 - User
 - Theme
 - Sidebar
@@ -342,7 +342,7 @@ Global Search
 - Selected AI Model
 - Preferences
 
-### Server State
+### 🗄️ Server State
 
 Managed by React Query
 
@@ -353,7 +353,7 @@ Managed by React Query
 - User Data
 
 
-## 11. API Layer
+## 🔌 11. API Layer
 
 services/
 
@@ -371,7 +371,7 @@ profile.service.ts
 
 settings.service.ts
 
-## 12. Error Handling
+## ⚠️ 12. Error Handling
 - API Errors
 - Network Errors
 - Validation Errors
@@ -382,7 +382,7 @@ settings.service.ts
 
 
 
-## 13. Folder Architecture
+## 🗂️ 13. Folder Architecture
 
 src/
 <br>
