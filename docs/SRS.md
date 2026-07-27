@@ -99,7 +99,7 @@ Next.js App Router
 - Logout
 - Session persistence
 - Remember me
-- Fake authentication
+- Mock Authentication API
 - Protected routes
 
 ### 💬 AI Chat
@@ -231,6 +231,7 @@ Global Search
 ## 📄 7. Pages
 ### 🔐 Authentication
 - Login
+- Signup
 
 ### 🏠 Dashboard
 - Overview
@@ -355,6 +356,24 @@ Managed by React Query
 
 ## 🔌 11. API Layer
 
+Axios Instance
+
+↓
+
+Interceptors
+
+↓
+
+Retry
+
+↓
+
+Refresh Token (Mock)
+
+↓
+
+Error Mapper
+
 services/
 
 > Separate Service Layer
@@ -450,3 +469,96 @@ styles/
 - Team collaboration
 - Real-time sync with WebSockets
 - PWA support
+
+
+
+
+## 16. Testing
+- Vitest
+- React Testing Library
+
+
+## 17. Logging
+> Error logging.
+
+- logger.ts
+
+- info()
+
+- warn()
+
+- error()
+
+
+## 18. Feature Flags
+- Enable AI Search
+
+- Enable Markdown
+
+- Enable Prompt Library
+
+
+## 19. Environment Handling
+- .env
+
+- .env.production
+
+- .env.local
+
+
+
+## 20. Custom Hooks
+- useChats()
+
+- useNotes()
+
+-  useTheme()
+
+- useSearch()
+
+- useDebounce()
+
+- useInfiniteScroll()
+
+- useKeyboardShortcut()
+
+- useCommandPalette()
+
+-  useLocalStorage()
+
+
+
+## 21. Reusable Components
+> UI duplication almost zero.
+-Button
+
+- Input
+
+- Dialog
+
+- Dropdown
+
+- Tabs
+
+- Card
+
+- Modal
+
+- Tooltip
+
+- Popover
+
+- Badge
+
+- Avatar
+
+- Sab reusable.
+
+
+
+## 22. Keyboard Shortcuts
+Ctrl + K
+Ctrl + /
+Ctrl + N
+Esc
+Arrow Navigation
