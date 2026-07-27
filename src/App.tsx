@@ -1,11 +1,7 @@
-
-
 const App = () => {
-  return (
-    <div>
-      App
-    </div>
-  )
-}
+  const obj = { name: 'sourav' };
+  console.log(obj);
+  return <div>App</div>;
+};
 
-export default App
+export default App;
