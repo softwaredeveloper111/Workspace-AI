@@ -1,6 +1,6 @@
 
 ## Phase 1 - SRS(Software Requirement Specification)
-maake 
+make a detailed overview about your project so that team can understand your vision seamlessly
 
 
 ## Phase 2 - UI/UX Design

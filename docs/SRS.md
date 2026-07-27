@@ -61,7 +61,7 @@ This project aims to:
 - Axios
 - React Hook Form
 - Zod
-- TailwindCSS
+- Sass Modules
 - Framer Motion
 - React Hot Toast / Sonner
 > Version 2
