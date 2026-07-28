@@ -11,7 +11,8 @@ make a detailed overview about your project so that team can understand your vis
 
 ## Phase 3 – Foundation
 Project setup (Vite + React + TypeScript)
-ESLint + Prettier
+ESLint + Prettier Configration
+
 Folder architecture
 Naming & structure
 Path aliases
