@@ -1,5 +1,5 @@
 const App = () => {
-  const name = 'Roko';
+  const unused = 10;
   return <div>App</div>;
 };
 
