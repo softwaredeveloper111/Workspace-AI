@@ -37,7 +37,7 @@ export default defineConfig([
       'no-empty': 'error',
 
       '@typescript-eslint/no-explicit-any': 'warn',
-      '@typescript-eslint/no-unused-vars': 'error',
+      '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/no-empty-object-type': 'warn',
     },
@@ -92,7 +92,7 @@ console.log("Hello");
 
 // "@typescript-eslint/no-explicit-any": "warn", /** Agar tum explicitly any type use karoge, to ESLint warning dega. */
 
-// "@typescript-eslint/no-unused-vars": "error", /** detect unused variables */
+// "@typescript-eslint/no-unused-vars": "error", /** detect unused variables , means you define the varaiables but never used it */
 
 // "@typescript-eslint/consistent-type-imports": "error", /** Instead of import User from "./types"; import type User from "./types"; more cleaner */
 
