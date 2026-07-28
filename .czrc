@@ -1,0 +1,86 @@
+{
+  "useEmoji": true,
+
+  "types": [
+    {
+      "value": "feat",
+      "name": "✨ feat:      A new feature"
+    },
+    {
+      "value": "fix",
+      "name": "🐛 fix:       Bug fix"
+    },
+    {
+      "value": "refactor",
+      "name": "♻️ refactor: Refactor code"
+    },
+    {
+      "value": "perf",
+      "name": "⚡ perf:      Performance improvement"
+    },
+    {
+      "value": "style",
+      "name": "🎨 style:     Formatting / styling"
+    },
+    {
+      "value": "docs",
+      "name": "📝 docs:      Documentation"
+    },
+    {
+      "value": "test",
+      "name": "✅ test:      Tests"
+    },
+    {
+      "value": "build",
+      "name": "📦 build:     Build system"
+    },
+    {
+      "value": "ci",
+      "name": "👷 ci:        CI / CD"
+    },
+    {
+      "value": "chore",
+      "name": "🔧 chore:     Maintenance"
+    },
+    {
+      "value": "revert",
+      "name": "⏪ revert:    Revert commit"
+    }
+  ],
+
+  "scopes": [
+    "🎆project-setup",
+    "🎨 ui",
+    "📄 pages",
+    "🧩 components",
+    "🪝 hooks",
+    "🗂 context",
+    "🏪 store",
+    "🔌 api",
+    "🔐 auth",
+    "💬 chat",
+    "📊 dashboard",
+    "👤 profile",
+    "⚙️ settings",
+    "🛠 services",
+    "🧰 utils",
+    "📝 types",
+    "📁 config",
+    "📦 deps",
+    "📚 docs"
+  ],
+
+  "allowCustomScopes": true,
+
+  "allowEmptyScopes": false,
+
+  "subjectMaxLength": 80,
+
+  "useAI": false,
+
+  "skipQuestions": [
+    "body",
+    "footer",
+    "breaking"
+  ]
+}
