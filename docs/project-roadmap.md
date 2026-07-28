@@ -10,8 +10,11 @@ make a detailed overview about your project so that team can understand your vis
 
 
 ## Phase 3 – Foundation
-Project setup (Vite + React + TypeScript)
+Project setup (Vite + React + TypeScript);
+Git workflow setup;
 ESLint + Prettier Configration
+Huskey setup and git hooks
+lint staged
 
 Folder architecture
 Naming & structure
