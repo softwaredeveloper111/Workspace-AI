@@ -1,0 +1,25 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+
+
+// stop searching for another .editorconfig in parent folder
+// apply in every file
+// save file in encoding utf-8 , different editor save files different encoding system
+// windows use crlf , linux or mac use lf , Git repositories almost always use lf Otherwise you'll constantly see: 100 files changed No code actually changed. Only line endings changed.
+//Use spaces. not tabs
+//Every indentation 2 spaces
+//Every file ends with \n  , This is a POSIX convention.
+// Trailing spaces are automatically removed.
+// Markdown intentionally uses trailing spaces for line breaks. If trailing spaces were removed, formatting could change.
+So we disable trimming only for Markdown.

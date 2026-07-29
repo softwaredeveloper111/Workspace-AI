@@ -15,7 +15,13 @@ Git workflow setup;
 ESLint + Prettier Configration
 Huskey setup and git hooks
 lint staged
-
+commitlint + commit message convention
+cz-git + czg
+✅ .editorconfig (5 minutes)
+✅ Import alias (@/) 
+✅ Environment file strategy 
+✅ GitHub Actions CI 
+✅ README (last, after project grows)
 Folder architecture
 Naming & structure
 Path aliases
