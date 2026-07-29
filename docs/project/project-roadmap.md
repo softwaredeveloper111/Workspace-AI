@@ -10,22 +10,21 @@ make a detailed overview about your project so that team can understand your vis
 
 
 ## Phase 3 – Foundation
-Project setup (Vite + React + TypeScript);
-Git workflow setup;
-ESLint + Prettier Configration
-Huskey setup and git hooks
-lint staged
-commitlint + commit message convention
-cz-git + czg
-✅ .editorconfig (5 minutes)
+✅Project setup (Vite + React + TypeScript);
+✅Git workflow setup;
+✅ESLint + Prettier Configration
+✅Huskey setup and git hooks
+✅lint staged
+✅commitlint + commit message convention
+✅cz-git + czg
+✅ .editorconfig 
 ✅ Import alias (@/) 
 ✅ Environment file strategy 
-✅ GitHub Actions CI 
+⌛ GitHub Actions CI 
 ✅ README (last, after project grows)
-Folder architecture
-Naming & structure
-Path aliases
-Theme tokens
+✅Folder architecture
+✅Naming & structure
+✅Theme tokens (root varialbles for maintain the consistency)  
 Reusable UI components
 
 
