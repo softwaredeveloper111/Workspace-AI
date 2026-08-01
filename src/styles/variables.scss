@@ -1,0 +1,85 @@
+/* ============================================================
+   Workspace AI
+   SCSS Variables
+   ------------------------------------------------------------
+   Compile-time variables only.
+
+   Do NOT put colors here.
+   Colors belong in theme.scss
+   ============================================================ */
+
+/* ==========================================================
+   Font Families
+   ========================================================== */
+
+$font-primary: 'Inter', sans-serif;
+$font-heading: 'Inter', sans-serif;
+$font-monospace: 'JetBrains Mono', monospace;
+
+/* ==========================================================
+   Breakpoints
+   Mobile First
+   ========================================================== */
+
+$breakpoint-xs: 480px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1440px;
+$breakpoint-3xl: 1600px;
+
+/* ==========================================================
+   Container Width
+   ========================================================== */
+
+$container-sm: 640px;
+$container-md: 768px;
+$container-lg: 1024px;
+$container-xl: 1280px;
+$container-2xl: 1440px;
+
+/* ==========================================================
+   Layout
+   ========================================================== */
+
+$sidebar-width: 260px;
+$sidebar-collapsed-width: 80px;
+
+$navbar-height: 72px;
+
+$content-max-width: 1440px;
+
+/* ==========================================================
+   Z-index Scale
+   ========================================================== */
+
+$z-base: 1;
+$z-dropdown: 100;
+$z-sticky: 200;
+$z-fixed: 300;
+$z-sidebar: 400;
+$z-modal-backdrop: 500;
+$z-modal: 600;
+$z-popover: 700;
+$z-tooltip: 800;
+$z-toast: 900;
+$z-loader: 999;
+$z-max: 9999;
+
+/* ==========================================================
+   Transition Timing
+   ========================================================== */
+
+$ease-linear: linear;
+$ease-in: ease-in;
+$ease-out: ease-out;
+$ease-in-out: ease-in-out;
+
+/* ==========================================================
+   Asset Paths
+   ========================================================== */
+
+$font-path: '/fonts/';
+$image-path: '/images/';
+$icon-path: '/icons/';
